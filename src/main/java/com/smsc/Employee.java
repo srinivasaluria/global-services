@@ -4,11 +4,13 @@ public class Employee {
 	
 	private String empId;
 	private String empName;
+	private String empDesc;
 	
 	public Employee()
 	{
 		this.empId = "1008";
 		this.empName = "xyz";
+		this.empDesc = "Trainee";
 	}
 	
 	/**
@@ -42,6 +44,19 @@ public class Employee {
 		this.empName = empName;
 	}
 
+	/**
+	 * @return the empDesc
+	 */
+	public String getEmpDesc() {
+		return empDesc;
+	}
+
+	/**
+	 * @param empDesc the empDesc to set
+	 */
+	public void setEmpDesc(String empDesc) {
+		this.empDesc = empDesc;
+	}
 
 	public static void main(String[] args) {
 		
